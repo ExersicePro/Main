@@ -37,7 +37,7 @@
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">]
+      <div class="logo">
         <h1><a href="index.html"><span>Track Your Money</span></a></h1>
       </div>
 
