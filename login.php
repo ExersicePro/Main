@@ -11,11 +11,7 @@
 
   <title>Masuk</title>
   <link rel="icon" type="image/x-icon" href="./assets/img/loco.jpg">
-  <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-
-  <!-- Custom styles for this template-->
   <link href="./assets/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
@@ -32,19 +28,16 @@
                   </div>
                   <form class="user" action="proses-login.php" method="post">
                     <div class="form-group">
-                      <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email...">
+                      <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Masukan Email">
                     </div>
                     <div class="form-group">
-                      <input type="password" name="pass" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password..">
+                      <input type="password" name="pass" class="form-control form-control-user" id="exampleInputPassword" placeholder="Masukan Kata sandi">
                     </div>
-                    <div class="form-group">
-                      <div class="custom-control custom-checkbox small">
-                        <input type="checkbox" class="custom-control-input" id="customCheck">
-                        <label class="custom-control-label" for="customCheck">Ingat akun</label>
-                      </div>
-                    </div>
+                      <p>Lupa Kata sandi? <a href="#">klik disini</a> </p>
+                      <p>Belum memiliki akun? <a href="./register.php">klik disini</a> </p>
                     <input type="submit" name="submit" class="btn btn-primary btn-user btn-block" value="Masuk">
                   </form>
+                          
                   <hr>
                 </div>
 
